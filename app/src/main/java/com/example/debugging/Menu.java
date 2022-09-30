@@ -83,7 +83,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
                 finish();
                 break;
             case R.id.buttonInformation:
-                Toast.makeText(this, "A neved:" + seged, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "A neved:" + textViewName.getText(), Toast.LENGTH_SHORT).show();
                 break;
             case R.id.buttonExit:
                 break;
